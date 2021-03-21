@@ -1,0 +1,96 @@
+.sidebar {
+    background-color: #F2F4F7;
+    height: 1024px;
+}
+.btn{
+    margin-left: 19px;
+    margin-bottom: 15px;   
+}
+.active {
+    color: blue;
+  }
+/* sidebar */
+
+/*chatHome*/
+.chathome {
+    background-color: #fbfbfd;
+    height: 1024px; 
+}
+.chats{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.card{
+    background-color: #dadada;
+    height: 90px;
+    width: 444px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.chatPerson{
+    margin-left:88px;
+    position:absolute;
+    margin-top:7px;
+}
+.chaticon{
+    margin-left:30px;
+    position:absolute;
+    margin-top:25px;
+}
+.smallRectangle{
+    color: white;
+    background-color: teal;
+    text-align: center;
+    border-radius: 15px;
+    margin-left:88px;
+    position:absolute;
+    margin-top:35px;
+    width: 60px;
+    height: 25px;
+}
+.hithere{
+    margin-left:88px;
+    position:absolute;
+    margin-top:60px;
+}
+/*chatHome End*/
+
+.chatScreen {
+    background-color: white;
+    height: 1024px;
+}
+.messagerecievd{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 20px 20px 20px;
+    background: blue;
+    padding: 20px; 
+    width: 250px;
+    height: 25px; 
+}
+.messageSend{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 195px;
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 20px;
+    background: white;
+    padding: 20px; 
+    width: 250px;
+    height: 25px; 
+}
+.note {
+    background-color:white;
+    height: 1024px;
+} 
+.label{
+    color: white;
+    border-radius: 15px;
+    width: auto;
+    background-color: teal;
+    margin-left: 7px;
+}
