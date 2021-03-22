@@ -1,3 +1,25 @@
-<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M9.75464 1C9.75464 1 4.22664 1.00288 4.218 1.00288C2.2306 1.01512 1 2.32277 1 4.31737V10.9392C1 12.9438 2.23996 14.2565 4.24464 14.2565C4.24464 14.2565 9.77192 14.2544 9.78128 14.2544C11.7687 14.2421 13 12.9338 13 10.9392V4.31737C13 2.31269 11.7593 1 9.75464 1Z" stroke="#919399" stroke-width="1.08011" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="48" height="48" fill="#E5E5E5"/>
+<g clip-path="url(#clip0)">
+<rect width="1440" height="1024" transform="translate(-24 -247)" fill="white"/>
+<g filter="url(#filter0_b)">
+<rect x="72" y="-247" width="1024" height="96" transform="rotate(90 72 -247)" fill="#F2F4F7"/>
+</g>
+<rect width="48" height="48" rx="24" fill="white"/>
+<path d="M26.6159 26.7018H21.417" stroke="#919399" stroke-width="1.08011" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.6159 23.6874H21.417" stroke="#919399" stroke-width="1.08011" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.4013 20.6799H21.4175" stroke="#919399" stroke-width="1.08011" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M26.7546 17C26.7546 17 21.2266 17.0029 21.218 17.0029C19.2306 17.0151 18 18.3228 18 20.3174V26.9392C18 28.9438 19.24 30.2565 21.2446 30.2565C21.2446 30.2565 26.7719 30.2544 26.7813 30.2544C28.7687 30.2421 30 28.9338 30 26.9392V20.3174C30 18.3127 28.7593 17 26.7546 17Z" stroke="#919399" stroke-width="1.08011" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_b" x="-48" y="-271" width="144" height="1072" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="12"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+</filter>
+<clipPath id="clip0">
+<rect width="1440" height="1024" fill="white" transform="translate(-24 -247)"/>
+</clipPath>
+</defs>
 </svg>

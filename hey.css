@@ -1,33 +1,50 @@
+/* The side navigation menu */
 .sidebar {
+    margin: o;
+    padding: 15px;
+    width: 96px;
     background-color: #F2F4F7;
-    height: 1024px;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar a{
+      margin-top: 22px;
+  }
+  .sidebar logo{
+    margin-bottom: 27px;
 }
+
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {
+        float: left;
+        margin-right: 15px;
+    }
+    
+  } 
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 700px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+
 .btn{
-    margin-left: 19px;
+    margin-left: auto;
     margin-bottom: 15px;   
-}
-.btn:hover{
-    background-color: aquamarine;
 }
 .active {
     color: blue;
   }
 
-.outer{
-    
-    margin-top: 29px;
-    margin-left: 21px;
-    margin-right: auto;
-    width: 50%;
-}
-.inner
-{
-    position: absolute;
-    margin-left: auto;
-    right: 37px;
-    top: 42px;
-    width: 25%;
-}
 /* sidebar end */
 
 /*chatHome*/
@@ -36,6 +53,9 @@
     height: 1024px; 
 }
 .chats{
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
     margin-top: 30px;
     margin-left: 30px;
 }
@@ -51,31 +71,41 @@
     margin-bottom: 15px;
 }
 .chatPerson{
+    color: #222222;
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
     margin-left:88px;
     position:absolute;
     margin-top:7px;
 }
 .chaticon{
-    margin-left:30px;
+    margin-left:16px;
     position:absolute;
     margin-top:25px;
 }
 .smallRectangle{
-    color: white;
-    background-color: teal;
+    color: #646464;;
+    background-color: #FBFBFD;
     text-align: center;
     border-radius: 15px;
-    margin-left:88px;
+    border: 1px solid #D9D9E7;
+    margin-left:72px;
     position:absolute;
     margin-top:35px;
-    width: 60px;
+    width: 48px;
     height: 25px;
 }
 .hithere{
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
     margin-left:88px;
     position:absolute;
-    margin-top:60px;
+    margin-top:58px;
 }
+
 
 /*chatHome End*/
 
@@ -88,7 +118,7 @@
     color: white;
     display: flex;
     align-items: center;
-    margin-left: 65px;
+    margin-left: 25px;
     border-radius: 0px 20px 20px 20px;
     background: blue;
     padding: 20px; 
@@ -99,7 +129,7 @@
     margin-top: 10px;
     display: flex;
     align-items: center;
-    margin-left: 135px;
+    margin-left: 175px;
     border: 1px solid black;
     border-radius: 20px 20px 0px 20px;
     background: white;
@@ -112,9 +142,9 @@
     height: 1024px;
 } 
 .label{
-    color: white;
+    color: #222222;
     border-radius: 15px;
     width: auto;
-    background-color: teal;
+    background-color: #F2F4F7;
     margin-left: 7px;
 }
