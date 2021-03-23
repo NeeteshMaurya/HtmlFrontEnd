@@ -1,64 +1,69 @@
 /* The side navigation menu */
 .sidebar {
-    margin: o;
-    padding: 15px;
+    margin-left: 0;
     width: 96px;
     background-color: #F2F4F7;
     height: 100%;
-    overflow: auto;
-  }
-  .sidebar a{
-      margin-top: 22px;
+    overflow: auto; 
   }
   .logo{
-      margin-top:24px;
-      margin-left:10px;
+      position: absolute;
+      margin-top:22px;
+      margin-left:24px;
+      margin-right: 24px;
 }
   .home{
-      margin-top:49px;
-      margin-left:10px;
+      position: absolute;
+      margin-top:119px;
+      margin-left:24px;
+      margin-right: 24px;
+      
 }
-  .search{
-      margin-top:16px;
-      margin-left:10px;
+.search{
+    position: absolute;
+    margin-top:183px;
+    margin-left:24px;
+    margin-right: 24px;   
 }
-  .docIcon{
-      margin-top:16px;
-      margin-left:10px;
+.docIcon{
+    position: absolute;
+    margin-top:247px;
+    margin-left:24px;
+    margin-right: 24px;     
 }
 
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
   @media screen and (max-width: 575.8px) {
     .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
     .sidebar a {
         float: left;
         margin-right: 15px;
-    }
+      }
     .logo{
         margin-top:0;
         margin-left:10px;
-  }
+      }
     .home{
         margin-top:0;
         margin-left:10px;
-  }
+      }
     .search{
         margin-top:0;
         margin-left:10px;
-  }
+      }
     .docIcon{
         margin-top:0;
         margin-left:10px;
-  }
-    
+      }
   } 
+    
   
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 400px) {
     .sidebar a {
       text-align: center;
       float: none;
@@ -82,10 +87,20 @@
     height: 1024px; 
 }
 .chats{
+    
     font-family: Archivo;
     font-style: normal;
     font-weight: bold;
-    margin-top: 30px;
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 100%;
+/* identical to box height, or 28px */
+
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
     margin-left: 30px;
 }
 .card:hover{
@@ -93,38 +108,45 @@
 }
 .card{
     background-color: #FFFFFF;
-    height: 90px;
+    height: 99px;
     width: 100%;
     margin: auto;
     border-radius: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 .chatPerson{
     color: #222222;
     font-family: Archivo;
     font-style: normal;
     font-weight: normal;
+    font-size: 16px;
     margin-left:72px;
     position:absolute;
-    margin-top:7px;
+    margin-top:18px;
 }
 .chaticon{
     margin-left:16px;
     position:absolute;
-    margin-top:25px;
+    margin-top:30px;
 }
 .smallRectangle{
     color: #646464;;
     background-color: #FBFBFD;
+    display: flex;
     align-items: center;
-    text-align: center;
     border-radius: 15px;
     border: 1px solid #D9D9E7;
     margin-left:72px;
     position:absolute;
-    margin-top:35px;
+    margin-top:42px;
     width: 48px;
-    height: 25px;
+    height: 18px;
+}
+.b{
+    margin-left: 5px;
+}
+.d{
+    margin-left: 7px;
 }
 .hithere{
     font-family: Archivo;
@@ -144,7 +166,7 @@
     height: 1024px;
 }
 .messagerecievd{
-    margin-top: 20px;
+    margin-top: 8px;
     color: white;
     display: flex;
     align-items: center;
@@ -155,12 +177,16 @@
     width: 50%;
     height: 25px;
 }
+.e{
+    margin-top: 0;
+    margin-left: 25px;
+}
 .messageSend{
-    margin-top: 10px;
+    margin-top: 8px;
     display: flex;
     align-items: center;
     margin-left: 175px;
-    border: 1px solid black;
+    border: 1px solid #D9D9E7;
     border-radius: 20px 20px 0px 20px;
     background: white;
     padding: 20px; 
@@ -169,7 +195,7 @@
 }
 .messageTime{
     margin-left:75%;
-    margin-top:10px;
+    margin-top:24px;
 }
 .blueTick{
     margin-left: 90%;
@@ -196,6 +222,7 @@
     height: 1024px;
 } 
 .label{
+    margin-left: 33px;
     font-family: Archivo;
     font-style: normal;
     font-weight: normal;
@@ -206,7 +233,6 @@
     height: 25px;
     display: flex;
     align-items: center;
-    background-color: #F2F4F7;
-    margin-left: auto;
+    background-color: #F2F4F7; 
     margin-right: auto;
 }
