@@ -28,7 +28,7 @@
 }
 
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 575.8px) {
     .sidebar {
       width: 100%;
       height: auto;
@@ -203,6 +203,7 @@
     color: #222222;
     border-radius: 15px;
     width: auto;
+    height: 25px;
     display: flex;
     align-items: center;
     background-color: #F2F4F7;
