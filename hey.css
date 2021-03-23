@@ -173,6 +173,9 @@
     color: #222222;
     border-radius: 15px;
     width: auto;
+    display: flex;
+    align-items: center;
     background-color: #F2F4F7;
-    margin-left: 15px;
+    margin-left: auto;
+    margin-right: 25px;
 }
