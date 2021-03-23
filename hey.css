@@ -10,8 +10,21 @@
   .sidebar a{
       margin-top: 22px;
   }
-  .sidebar logo{
-    margin-bottom: 27px;
+  .logo{
+      margin-top:24px;
+      margin-left:10px;
+}
+  .home{
+      margin-top:49px;
+      margin-left:10px;
+}
+  .search{
+      margin-top:16px;
+      margin-left:10px;
+}
+  .docIcon{
+      margin-top:16px;
+      margin-left:10px;
 }
 
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -25,6 +38,22 @@
         float: left;
         margin-right: 15px;
     }
+    .logo{
+        margin-top:0;
+        margin-left:10px;
+  }
+    .home{
+        margin-top:0;
+        margin-left:10px;
+  }
+    .search{
+        margin-top:0;
+        margin-left:10px;
+  }
+    .docIcon{
+        margin-top:0;
+        margin-left:10px;
+  }
     
   } 
   
